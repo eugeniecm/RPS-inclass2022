@@ -11,7 +11,7 @@
 #ask for a use input 
 user_choice = input("Please choose one of: 'Rock', 'Paper', 'Scissors': ")
 
-print("USER CHOSE" : u)
+print("USER CHOSE", user_choice)
 
 
 
