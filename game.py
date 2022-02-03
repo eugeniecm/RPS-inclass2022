@@ -6,6 +6,7 @@
 # ... https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/README.md
 #
 import random
+import os
 
 #ask for a use input 
 user_choice = input("Hello! Please choose one: 'rock', 'paper', 'scissors': ")
