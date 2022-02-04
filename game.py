@@ -36,20 +36,20 @@ if user_choice == computer_choice:
     print("Both players played", user_choice, "It's a tie!")
 elif user_choice == "paper":
     if computer_choice == "rock":
-        print("Paper covers rock. You won!")
+        print("Paper covers rock.", username, "won! Congrats!")
     else: 
         print("Scissors cuts paper. You lost! It's ok.")
 elif user_choice == "scissors":
     if computer_choice == "paper":
-        print("Scissors cuts paper. You won!")
+        print("Scissors cuts paper.", username, "won! Congrats!")
     else: 
         print("Rock crushes scissors. You lost! It's ok.")
 elif user_choice == "rock":
     if computer_choice == "scissors":
-        print("Rock crushes scissors. You won!")
+        print("Rock crushes scissors.", username, "won! Congrats!")
     else: 
-        print("Paper covers rock You lost! It's ok.") 
+        print("Paper covers rock. You lost! It's ok.") 
 
 #final results 
-print("Thanks for playing. Please play again!")
+print("Thanks for playing", username, "Please play again!")
 
