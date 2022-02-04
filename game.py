@@ -14,7 +14,7 @@ username = os.getenv("username", default="Player One")
 #ask for a use input 
 user_choice = input("Hello! Please choose one: 'rock', 'paper', 'scissors': ")
 
-print("USER CHOSE:", user_choice)
+print(username, "chose", user_choice)
 
 # validation 
 # include capitalization
@@ -29,7 +29,7 @@ if user_choice != "rock" and user_choice != "paper" and user_choice != "scissors
 possible_choice = ["rock", "paper", "scissors"]
 computer_choice = random.choice(possible_choice)
 
-print("COMPUTER CHOSE:", computer_choice)
+print("Computer chose", computer_choice)
 
 #determine the winner
 if user_choice == computer_choice:
