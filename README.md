@@ -37,3 +37,6 @@ Run tests:
 ```sh
 pytest
 ```
+
+## passing environment variable to the script 
+username="Jon Snow" python game.py

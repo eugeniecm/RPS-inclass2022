@@ -8,6 +8,9 @@
 import random
 import os
 
+#let the player input their names
+username = os.getenv("username", default="Player One")
+
 #ask for a use input 
 user_choice = input("Hello! Please choose one: 'rock', 'paper', 'scissors': ")
 
